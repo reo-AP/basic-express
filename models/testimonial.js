@@ -8,7 +8,7 @@ const Testimonial = sequelize.define("testimonial", {
         primaryKey: true
     },
     photo: {
-      type: DataTypes.BLOB('long'),
+      type: DataTypes.STRING,
     },
     name: {
       type: DataTypes.STRING,
